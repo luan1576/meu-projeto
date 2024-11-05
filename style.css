@@ -5,9 +5,9 @@
     --white: #000000c0;
     --dark1: #00030c8a; /* Cor de fundo principal */
     --dark2: #00000060; /* Cor de seções */
-    --dark3: #000000c9; /* Cor clara (pode alterar para contraste) */
+    --dark3: #06f5f5c9; /* Cor clara (pode alterar para contraste) */
     --dark4: #0000008e; /* Alternativa de cor clara */
-    --dark5: #bdeb3fe3; /* Cor de destaque */
+    --dark5: #ebda3fe3; /* Cor de destaque */
     --cyan1: #ebfc05c4; /* Outra cor de destaque */
 }
 /* Resetando margens e preenchimentos padrão */
@@ -144,9 +144,9 @@ strong {
 }
 /* Imagem de perfil */
 .img-profile {
-    width: 0px; /* Defina um tamanho específico */
-    height: 0px; /* Mesma altura para manter o círculo perfeito */
-    border-radius: 0%; /* 50% garantirá o formato circular */
+    width: 400px; /* Defina um tamanho específico */
+    height: 400px; /* Mesma altura para manter o círculo perfeito */
+    border-radius: 50%; /* 50% garantirá o formato circular */
     object-fit: cover; /* Garante que a imagem preencha o círculo corretamente */
 }
 /* Seções com fundo escuro */
